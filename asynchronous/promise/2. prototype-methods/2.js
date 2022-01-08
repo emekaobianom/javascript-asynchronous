@@ -4,7 +4,7 @@
  * we could have done the same with with .then. It would have looked like This:
  */
 
-//CREATE
+//CREATE PROMISE
  var momsPromise = new Promise(function (resolve, reject) {
     momsSavings = 20000;
     priceOfPhone = 60000;
@@ -18,7 +18,7 @@
     }
   });
 
-  //HANDLE
+  //HANDLE PROMISE
  momsPromise.then(
     function(value) {
       console.log("Hurray I got this phone as a gift ", JSON.stringify(value));

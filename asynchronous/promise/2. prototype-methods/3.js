@@ -12,10 +12,10 @@ function getRandomNumber(start = 1, end = 10) {
 }
 
 
-//CREATE A PROMISE
+//CREATE PROMISE FUNCTION (once called will generate a promise)
 var promiseTRRARNOSG =
   (
-      promiseThatResolvesRandomlyAfterRandomNumnberOfSecondsGenerator = function () {
+      promiseThatResolvesRandomlyAfterRandomNumnberOfSecondsGenerator = function () { 
 
         //RETURN A PROMISE
       return new Promise(function (resolve, reject) {

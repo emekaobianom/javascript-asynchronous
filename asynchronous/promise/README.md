@@ -1,4 +1,7 @@
 
+# https://betterprogramming.pub/understanding-promises-in-javascript-13d99df067c1
+
+
 # PromiseStatus can have three different values: PENDING, RESOLVED, or REJECTED
 # pending always have PromiseValue = undefined until the promise is either resolved or rejected
 # When a promise is in resolved or rejected states, a promise is said to be SETTLED
